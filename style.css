@@ -1895,7 +1895,8 @@ border-radius: 50%;
 /* background-color: #14ff72cb; */
        /* color: rgba(32, 33, 114, 0.703); */
        /* background-color:  rgba(32, 33, 114, 0.703); */
-           background-color: #fff;
+           /* background-color: #fff; */
+           background-color: #073333;
 
 
 
@@ -1905,7 +1906,8 @@ font-size: 16px;
 font-weight: bold;
 transition: .5s;
 cursor: pointer;
-   color: black;
+   /* color: black; */
+   color: #fff;
 
 }
 .arrows button:hover{
@@ -1972,7 +1974,9 @@ animation: runningTime 7s linear 1 forwards;
 }
 .AM23{
         /* background: var(--gradient); */
-        background-color: var(--primary-20);
+        /* background-color: var(--primary-20); */
+        background-color: #083d3d;
+        box-shadow: var(--shadow-4);
 
 }
 .new-content h2{
@@ -1991,7 +1995,8 @@ animation: runningTime 7s linear 1 forwards;
 }
 .cardd {
     text-align: center;
-background-color: #7cb2f8;
+/* background-color: #7cb2f8; */
+background-color: #2f4f4ff7;
     border-radius: 6px;
     padding: 20px;
     margin: 5px 0;
@@ -2000,16 +2005,22 @@ background-color: #7cb2f8;
     border: 1px solid #fee4e5;
     cursor: grab;
     height: 300px;
+    color: #fff;
 }
 
 .cardd-icon {
-    width: 200px;
+    width: 100px;
     margin: 0 auto 58px;
-    /* background-color: #30c927; */
+    background-color: #30c927;
     justify-content: center;
-
-    padding: 8px;
+border-radius: 50%;
+    padding: 17px;
+    margin-top: 20px;
 }
+/* cardd-icon img{
+    background-color: #073333;
+    padding: 40px;
+} */
 
 .cardd h3 {
     font-weight: 700;
@@ -2417,3 +2428,48 @@ background-color: #7cb2f8;
 .cp {
     cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+    .sh-title h2 {
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 7px;
+        position: relative;
+    }
+     .sh-title h1 {
+        text-align: left;
+        margin-bottom: 15px;
+        padding-bottom: 7px;
+        position: relative;
+    }
+}
+.sh-title h2 {
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.sh-title h1 {
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.sh-title h2{
+    font-size: 26px;
+    color: #333;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(to right, #bf1112 35%, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.sh-title h1{
+    font-size: 46px;
+    color: #333;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(to right, #bf1112 35%, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+/* https://static.realestateindia.com/rei/images/property-lead.jpg */
